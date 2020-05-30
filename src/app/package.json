@@ -3,7 +3,7 @@
     "babel-core": "*",
     "babel-plugin-transform-flow-strip-types": "*",
     "babel-preset-es2017": "*",
-    "minimatch": "^2.0.10",
+    "minimatch": "^3.0.4",
     "mysql": "^2.16.0"
   },
   "name": "customize-unicorn",

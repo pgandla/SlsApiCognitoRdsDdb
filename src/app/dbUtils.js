@@ -7,7 +7,7 @@ const PARTNER_COMPANY_TABLE = "Companies";
 * Host
 */
 
-const host = "secure-aurora-cluster.cluster-xxxxxxx.xxxxxxx.rds.amazonaws.com"
+const host = "secure-serverless-auroradbcluster-1uyr4j1dujcws.cluster-ctiiislygtom.us-east-1.rds.amazonaws.com"
 
 class Database {
 
@@ -51,7 +51,7 @@ class Database {
             resolve({
                 host: host,
                 user: "admin",
-                password: "Corp123!",
+                password: "password",
                 database: "unicorn_customization",
                 multipleStatements: true
             });

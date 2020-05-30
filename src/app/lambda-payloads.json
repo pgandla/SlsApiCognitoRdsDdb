@@ -1,0 +1,13 @@
+{
+    "UnicornPartsFunction": {
+        "apigateway": {
+            "path": "/horns",
+            "method": {
+                "value": "GET",
+                "items": [
+                    "GET"
+                ]
+            }
+        }
+    }
+}

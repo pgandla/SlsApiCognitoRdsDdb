@@ -6,10 +6,14 @@ exports.lambda_handler = function (event, context, callback) {
     console.log("received input event: \n" + JSON.stringify(event, null, 2));
 
     let id = (event.pathParameters || {}).id || false;
+    
+    console.log("id= ", id)
 
     if (id) {
         id = decodeURI(id)
     }
+    
+    console.log("id= ", id)
 
     var company;
 
